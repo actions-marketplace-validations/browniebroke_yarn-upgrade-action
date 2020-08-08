@@ -1,5 +1,8 @@
 name: 'Yarn Upgrader'
 description: 'Run yarn upgrade'
+branding:
+  icon: chevrons-up
+  color: purple
 runs:
   using: "composite"
   steps: 
