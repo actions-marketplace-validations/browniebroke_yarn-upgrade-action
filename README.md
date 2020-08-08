@@ -23,7 +23,7 @@ jobs:
         node-version: '${{ steps.nvmrc.outputs.node_version }}'
 
     # Run `yarn upgrade`
-    - uses: browniebroke/yarn-upgrade-action@v2
+    - uses: browniebroke/yarn-upgrade-action@v1
 
     # Open a pull request if there are any changes
     - name: Create Pull Request
