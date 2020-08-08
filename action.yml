@@ -1,0 +1,9 @@
+name: 'Yarn Upgrader'
+description: 'Run yarn upgrade'
+runs:
+  using: "composite"
+  steps: 
+    - run: yarn
+      shell: bash
+    - run: yarn upgrade
+      shell: bash
