@@ -10,3 +10,5 @@ runs:
       shell: bash
     - run: yarn upgrade
       shell: bash
+    - run: npx yarn-deduplicate yarn.lock
+      shell: bash
